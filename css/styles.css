@@ -1,0 +1,52 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  font-size: 30px;
+  text-align: center;
+}
+
+body {
+  background-color: burlywood;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+img {
+  height: auto;
+  width: 500px;
+  border: 4px solid black;
+}
+
+ul,
+ol {
+  list-style-position: inside;
+}
+
+div {
+  border: 4px solid black;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.r1 {
+  background-color: rgb(238, 222, 0);
+}
+
+.r2 {
+  background-color: rgb(230, 87, 31);
+}
+
+.r3 {
+  background-color: rgb(175, 2, 2);
+}
